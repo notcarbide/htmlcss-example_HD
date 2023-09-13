@@ -1,5 +1,6 @@
 body {
     margin: 3rem 5%;
+    background-color: #180A07;
 }
 
 h1 {
@@ -16,27 +17,46 @@ header img {
     margin: 0 auto;
 }
 
+nav {
+    background-color: #D0604C;
+    border-radius: 5px 5px 0 0;
+}
+
+nav a, footer p {
+    color: #F2E0D2;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration-line: underline;
+}
+
 nav ul {
     list-style: none;
     text-align: center;
     padding: 0;
+    margin: 2.5rem 0 0;
 }
 
 nav li {
     display: inline-block;
-    padding: 1rem 1rem 0;
+    padding: 1rem;
 }
 
 section {
     display: flex;
+    background-color: #A99793;
 }
 
 article {
     flex: 1;
+    color:#F2E0D2;
 }
 
 footer {
     display: flex;
+    background-color: #D0604C;
+    border-radius: 0 0 5px 5px;
 }
 
 footer div {
@@ -44,10 +64,11 @@ footer div {
 }
 
 footer p {
+    margin: 1.25rem;
     text-align: right;
 }
 
 footer img {
-    margin: 1.25rem auto;
+    margin: 1.25rem;
     width: 7rem;
 }
