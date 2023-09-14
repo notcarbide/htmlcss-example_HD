@@ -52,6 +52,12 @@ section {
     background-color: #A99793;
 }
 
+@media screen and (max-width: 576px) {
+    section{
+        flex-direction: column;
+    }
+}
+
 article {
     display: flex;
     flex-direction: column;
