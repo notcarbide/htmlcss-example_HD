@@ -1,3 +1,21 @@
+@keyframes fill-section {
+    from {
+        background-color: #180A07;
+    }
+    to {
+        background-color: #A99793;
+    }
+}
+
+@keyframes fill-nav {
+    from {
+        background-color: #180A07;
+    }
+    to {
+        background-color: #D0604C;
+    }
+}
+
 body {
     margin: 3rem 5%;
     background-color: #180A07;
@@ -24,6 +42,8 @@ header img {
 nav {
     background-color: #D0604C;
     border-radius: 5px 5px 0 0;
+    animation-name: fill-nav;
+    animation-duration: 1s;
 }
 
 nav a, footer p {
@@ -50,6 +70,8 @@ nav li {
 section {
     display: flex;
     background-color: #A99793;
+    animation-name: fill-section;
+    animation-duration: 3s;
 }
 
 @media screen and (max-width: 576px) {
@@ -99,6 +121,8 @@ footer {
     display: flex;
     background-color: #D0604C;
     border-radius: 0 0 5px 5px;
+    animation-name: fill-nav;
+    animation-duration: 1s;
 }
 
 footer div {
