@@ -51,6 +51,24 @@ section {
 article {
     flex: 1;
     color:#F2E0D2;
+    margin: 1rem 1rem 0;
+}
+
+#promo {
+    background-image: url("../promo.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 4.5rem;
+    border-radius: 5px;
+    color: #FFF;
+}
+
+#promo h1 {
+    margin: 0;
+}
+
+#promo p {
+    margin-bottom: 0;
 }
 
 footer {
