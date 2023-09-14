@@ -39,7 +39,7 @@ header img {
     margin: 0 auto;
 }
 
-nav {
+nav, footer {
     background-color: #D0604C;
     border-radius: 5px 5px 0 0;
     animation-name: fill-nav;
@@ -119,10 +119,7 @@ article img {
 
 footer {
     display: flex;
-    background-color: #D0604C;
     border-radius: 0 0 5px 5px;
-    animation-name: fill-nav;
-    animation-duration: 1s;
 }
 
 footer div {
