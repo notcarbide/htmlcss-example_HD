@@ -11,6 +11,10 @@ h2 {
     font-size: 1.5rem;
 }
 
+a {
+    color: #94B4DB;
+}
+
 header img {
     width: 15rem;
     display: block;
@@ -49,9 +53,18 @@ section {
 }
 
 article {
+    display: flex;
+    flex-direction: column;
     flex: 1;
     color:#F2E0D2;
-    margin: 1rem 1rem 0;
+    margin: 0.5rem;
+    padding: 0 0.5rem 1rem;
+    background-color: #180A07;
+    border-radius: 5px;
+}
+
+article img {
+    max-width: 100%;
 }
 
 #promo {
@@ -69,6 +82,11 @@ article {
 
 #promo p {
     margin-bottom: 0;
+}
+
+#hrs {
+    margin: 0.75rem 0.75rem 0;
+    font-size: 0.85rem;
 }
 
 footer {
